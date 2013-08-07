@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>jQuery Tetris menu demo</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+  <script type="text/javascript" src="file:///home/fx/jquery-tetris-menu/tetris.js"></script>
+  <style type="text/css">
+  a img {border: none}
+  </style>
+  <script type="text/javascript">
+$(document).ready(function(){
+  var menu=[
+    {
+      "applications":[
+         {
+            "name":"webmail",
+            "logo":"https://mail.google.com/favicon.ico",
+            "uri":"https://mail.google.com/"
+         },
+         {
+            "name":"calendar",
+            "logo":"https://www.google.com/calendar/images/calendar-42.png",
+            "desc": "Google calendar",
+            "uri":"https://www.google.com/calendar/"
+         },
+         {
+            "name": "facebook",
+            "logo": "https://www.facebook.com/favicon.ico",
+            "uri":"https://www.facebook.com/"
+         },
+      ],
+   },
+
+   {
+      "name": "Reference sites",
+      "applications":[
+         {
+            "name": "wikipedia",
+            "logo": "http://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png",
+            "uri":"http://www.wikipedia.org/"
+         },
+         {
+            "name": "wiktionary",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Wiktfavicon_en.svg/35px-Wiktfavicon_en.svg.png",
+            "uri":"http://www.wiktionary.org/"
+         },
+         {
+            "name": "debian",
+            "logo": "http://www.debian.org/favicon.ico",
+            "desc": "The universal operating system",
+            "uri":"http://www.debian.org/"
+         },
+      ],
+   },
+
+   {
+      "name": "News",
+      "applications":[
+         {
+            "name": "Google news",
+            "logo": "http://www.google.fr/favicon.ico",
+            "uri":"https://news.google.fr/"
+         },
+         {
+            "name": "Le Monde",
+            "logo": "http://s1.lemde.fr/medias/web/1.2.631/ico/favicon.ico",
+            "desc": "a French newspaper",
+            "uri":"http://www.lemonde.fr/"
+         },
+         {
+            "name": "CNN",
+            "logo": "https://si0.twimg.com/profile_images/3282163412/cbd5d0d39a32222f063abf2814ae6a6e_bigger.png",
+            "desc": "an American TV channel",
+            "uri":"http://edition.cnn.com/"
+         },
+      ],
+   },
+
+   {
+      "name": "Shopping",
+      "applications":[
+         {
+            "name": "EBay",
+            "logo": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/EBay_logo.svg/200px-EBay_logo.svg.png",
+            "uri":"www.ebay.com"
+         },
+         {
+            "name": "PriceMinister",
+            "logo": "http://www.priceminister.com/favicon.ico",
+            "uri":"http://www.priceminister.com/"
+         },
+         {
+            "name": "FNAC",
+            "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/e/ea/Fnac.svg/110px-Fnac.svg.png",
+            "uri":"http://www.fnac.com/"
+         },
+         {
+            "name": "Auchan Direct",
+            "logo": "http://static.auchan.fr/assets/2.13.0.5/common/media/site/favicon_auchan.ico",
+            "uri":"http://www.auchandirect.fr"
+         },
+         {
+            "name": "Leroy-Merlin",
+            "logo": "http://www.leroymerlin.fr/images/common/favicon.ico",
+            "desc": "Finally a store for men !!",
+            "uri":"http://www.leroymerlin.fr/"
+         },
+      ],
+   },
+
+   {
+      "name": "Work",
+      "applications":[
+         {
+            "name": "Stack overflow",
+            "logo": "http://cdn.sstatic.net/stackoverflow/img/favicon.ico",
+            "uri":"http://stackoverflow.com/"
+         },
+         {
+            "name": "jQuery",
+            "logo": "http://jquery.com/favicon.ico",
+            "uri":"http://jquery.com/"
+         },
+         {
+            "name": "GitHub",
+            "logo": "http://www.gregjoy.co.uk/static/images/github-logo.png",
+            "uri":"https://github.com/"
+         },
+         {
+            "name": "Apache",
+            "logo": "http://httpd.apache.org/favicon.ico",
+            "uri":"http://httpd.apache.org/"
+         },
+         {
+            "name": "ModPerl",
+            "logo": "http://perl.apache.org/images/favicon.ico",
+            "uri":"http://perl.apache.org/"
+         },
+         {
+            "name": "CPAN",
+            "logo": "http://padre.perlide.org/static/alien/cpan-logo.png",
+            "uri":"http://www.cpan.org/"
+         },
+      ],
+   },
+
+   {
+      "name": "$$",
+      "applications":[
+         {
+            "name": "New-York",
+            "logo": "https://nyse.nyx.com/sites/nyse.nyx.com/themes/nyx_site_theme/favicon.ico",
+            "desc": "New-York Stock Exchange",
+            "uri":"https://nyse.nyx.com/"
+         },
+         {
+            "name": "Tokyo",
+            "desc": "Tokyo Stock Exchange",
+            "logo": "http://www.tse.or.jp/favicon.ico",
+            "uri":"http://www.tse.or.jp/english/"
+         },
+      ],
+   },
+
+]
+
+  $("#menu").tetris(menu, {
+    width: 92,
+    height: 80,
+    margin: 2,
+    border: 2,
+    padding: 4,
+    logoside: 32,
+    hrtitles: 1,
+  })
+
+})
+
+  </script>
+</head>
+
+<body>
+  <div id="menu" style="max-width: 800px"></div>
+</body>
+
+</html>
+
