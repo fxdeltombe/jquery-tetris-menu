@@ -1,15 +1,15 @@
 {
     "name": "tetris",
     "title": "jQuery Tetris-like menu",
-    "description": "jQuery plugin that allocates menu categories and items on a grid, recalling the famous puzzle video game Tetris",
+    "description": "A very visual menu, looking like a puzzle to show all items in a minimal space",
     "keywords": [ "menu", "tetris", "puzzle", "grid" ],
-    "version": "0.1",
+    "version": "0.1.0",
     "author": { "name": "FX Deltombe" },
     "maintainers": [],
     "licenses": [
         {
             "type": "GPLv3",
-            "url": "https://github.com/fxdeltombe/jquery-tetris-menu/blob/master/LICENSE"
+            "url": "https://raw.github.com/fxdeltombe/jquery-tetris-menu/master/LICENSE"
         }
     ],
     "bugs"    : "https://github.com/fxdeltombe/jquery-tetris-menu/issues",
@@ -17,6 +17,6 @@
     "docs"    : "https://github.com/fxdeltombe/jquery-tetris-menu/",
     "download": "https://github.com/fxdeltombe/jquery-tetris-menu/",
     "dependencies": {
-        "jquery": ">=1"
+        "jquery": ">=1.4"
     }
 }

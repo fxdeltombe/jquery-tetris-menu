@@ -4,13 +4,13 @@
 
 tetrisid += 1
 
-var width       = p.width  || p.side || p.height || 100
-var height      = p.height || p.side || p.width  || 100
-var margin      = p.margin  != undefined ? p.margin  : p.padding != undefined ? p.padding : 4
-var padding     = p.padding != undefined ? p.padding : p.margin  != undefined ? p.margin  : 4
+var width       = p.width  || p.side || 100
+var height      = p.height || p.side || 100
+var margin      = p.margin  != undefined ? p.margin  : 2
+var padding     = p.padding != undefined ? p.padding : 4
 var border      = p.border != undefined ? p.border : p['border-width'] != undefined ? p['border-width'] : 2
-var logowidth   = p.logowidth  || p.logoside || p.logoheight || 40
-var logoheight  = p.logoheight || p.logoside || p.logowidth  || 40
+var logowidth   = p.logowidth  || p.logoside || 40
+var logoheight  = p.logoheight || p.logoside || 40
 var logodir     = p.logodir || ''
 var hrtitles    = p.hrtitles
 var targetblank = p.targetblank
