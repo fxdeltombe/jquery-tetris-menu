@@ -1,3 +1,10 @@
+/*!
+ * jQuery Tetris menu
+ * (c) 2013 FX Deltombe <fxdeltombe@gmail.com>
+ * GPLv3 Licensed.
+ *
+ * https://github.com/fxdeltombe/jquery-tetris-menu
+ */
 (function($){
   var tetrisid = 0
   $.fn.tetris = function(menu, p) {

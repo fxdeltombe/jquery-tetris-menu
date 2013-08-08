@@ -3,7 +3,7 @@
     "title": "jQuery Tetris-like menu",
     "description": "A very visual menu, looking like a puzzle to show all items in a minimal space",
     "keywords": [ "menu", "tetris", "puzzle", "grid" ],
-    "version": "0.1.2",
+    "version": "0.1.3",
     "author": { "name": "FX Deltombe" },
     "maintainers": [],
     "licenses": [
@@ -13,9 +13,8 @@
         }
     ],
     "bugs"    : "https://github.com/fxdeltombe/jquery-tetris-menu/issues",
-    "homepage": "https://github.com/fxdeltombe/jquery-tetris-menu/",
-    "docs"    : "https://github.com/fxdeltombe/jquery-tetris-menu/",
-    "download": "https://github.com/fxdeltombe/jquery-tetris-menu/",
+    "docs"    : "https://github.com/fxdeltombe/jquery-tetris-menu/tree/0.1.3",
+    "download": "https://github.com/fxdeltombe/jquery-tetris-menu/archive/0.1.3.zip",
     "dependencies": {
         "jquery": ">=1.4"
     }

@@ -7,9 +7,11 @@
   <meta http-equiv="Content-Script-Type" content="text/javascript" />
   <meta http-equiv="cache-control" content="no-cache" />
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
-  <script type="text/javascript" src="https://raw.github.com/fxdeltombe/jquery-tetris-menu/0.1.2/tetris.js"></script>
+  <script type="text/javascript" src="https://raw.github.com/fxdeltombe/jquery-tetris-menu/0.1.3/jquery.tetris.min.js"></script>
   <style type="text/css">
-  a img {border: none}
+body { font-family: Arial, sans-serif }
+a img {border: none}
+a, a:link, a:visited { color:#444; text-decoration:none; }
   </style>
   <script type="text/javascript">
 $(document).ready(function(){
@@ -17,18 +19,18 @@ $(document).ready(function(){
     {
       "applications":[
          {
-            "name":"webmail",
+            "name":"Webmail",
             "logo":"https://mail.google.com/favicon.ico",
             "uri":"https://mail.google.com/"
          },
          {
-            "name":"calendar",
+            "name":"Calendar",
             "logo":"https://www.google.com/calendar/images/calendar-42.png",
             "desc": "Google calendar",
             "uri":"https://www.google.com/calendar/"
          },
          {
-            "name": "facebook",
+            "name": "Facebook",
             "logo": "https://www.facebook.com/favicon.ico",
             "uri":"https://www.facebook.com/"
          },
@@ -39,17 +41,17 @@ $(document).ready(function(){
       "name": "Reference sites",
       "applications":[
          {
-            "name": "wikipedia",
+            "name": "Wikipedia",
             "logo": "http://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png",
             "uri":"http://www.wikipedia.org/"
          },
          {
-            "name": "wiktionary",
+            "name": "Wiktionary",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Wiktfavicon_en.svg/35px-Wiktfavicon_en.svg.png",
             "uri":"http://www.wiktionary.org/"
          },
          {
-            "name": "debian",
+            "name": "Debian",
             "logo": "http://www.debian.org/favicon.ico",
             "desc": "The universal operating system",
             "uri":"http://www.debian.org/"
