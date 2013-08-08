@@ -3,7 +3,7 @@
     "title": "jQuery Tetris-like menu",
     "description": "A very visual menu, looking like a puzzle to show all items in a minimal space",
     "keywords": [ "menu", "tetris", "puzzle", "grid" ],
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": { "name": "FX Deltombe" },
     "maintainers": [],
     "licenses": [

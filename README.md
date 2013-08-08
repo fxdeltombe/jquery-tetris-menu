@@ -12,7 +12,7 @@ It allocates categories and items on a grid, recalling the famous puzzle video g
 - Categories are nested within each other, like puzzle pieces, to optimize space.
 
 ## Demo
-Get the [demo html page](https://raw.github.com/fxdeltombe/jquery-tetris-menu/master/demo.html), save it as a html file and open it with your favorite browser.
+Get the [demo html page](https://raw.github.com/fxdeltombe/jquery-tetris-menu/0.1.2/demo.html), save it as a html file and open it with your favorite browser.
 
 ## Usage
 Include Tetris plugin *after* the jQuery library:
