@@ -12,7 +12,7 @@ It allocates categories and items on a grid, recalling the famous puzzle video g
 - Categories are nested within each other, like puzzle pieces, to optimize space.
 
 ## Demo
-Get the [demo html page](https://raw.github.com/fxdeltombe/jquery-tetris-menu/0.1.3/demo.html), save it as a html file and open it with your favorite browser.
+Get the [demo html page](https://raw.github.com/fxdeltombe/jquery-tetris-menu/0.1.4/demo.html), save it as a html file and open it with your favorite browser.
 
 ## Usage
 Include Tetris plugin *after* the jQuery library:
@@ -87,7 +87,7 @@ For pixel-length parameters, just set the number of pixel, don't suffix it with 
 #### Other parameters
 **logodir**: if all categories and item logos are in a common directory or prefixed by the same url, you can define it in this parameter
 
-**hrtitles**: if you want category titles to be highlighted with <hr/> above and below, set this parameter to *true*
+**hrtitles**: if you want category titles to be highlighted with &lt;hr/&gt; above and below, set this parameter to *true*
 
 **targetblank**: if you want html links to be opened in a new tab, set this parameter to *true*
 
